@@ -1,0 +1,35 @@
+{
+  "name": "investoday-mcp",
+  "version": "1.0.0",
+  "description": "Investoday Data API MCP Server - A stdio proxy for Investoday's Streamable HTTP MCP service",
+  "main": "index.js",
+  "bin": {
+    "investoday-mcp": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "investoday",
+    "data-api",
+    "finance",
+    "ai",
+    "llm",
+    "cline"
+  ],
+  "author": "Investoday",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/investoday/investoday-mcp-stdio.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.24.3"
+  }
+}
